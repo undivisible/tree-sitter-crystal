@@ -1,0 +1,26 @@
+{
+  "grammars": [
+    {
+      "name": "crystal",
+      "camelcase": "crystal",
+      "scope": "source.crystal",
+      "path": ".",
+      "file-types": ["cr"]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for crystal",
+    "authors": [{"name": "undivisible", "email": "undivisible@example.com"}]
+  },
+  "bindings": {
+    "c": true,
+    "java": false,
+    "go": false,
+    "node": true,
+    "python": false,
+    "rust": true,
+    "wasm": false
+  }
+}
