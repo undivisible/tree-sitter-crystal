@@ -2,6 +2,10 @@
 name = "tree-sitter-crystal"
 version = "0.1.0"
 edition = "2021"
+build = "bindings/rust/build.rs"
+
+[lib]
+path = "bindings/rust/lib.rs"
 
 [dependencies]
 tree-sitter-language = "0.1"

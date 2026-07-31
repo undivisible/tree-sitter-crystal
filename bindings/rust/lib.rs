@@ -4,4 +4,4 @@ extern "C" {
     fn tree_sitter_crystal() -> *const ();
 }
 
-pub const crystalUAGE: LanguageFn = unsafe { LanguageFn::from_raw(tree_sitter_crystal) };
+pub const LANGUAGE: LanguageFn = unsafe { LanguageFn::from_raw(tree_sitter_crystal) };
