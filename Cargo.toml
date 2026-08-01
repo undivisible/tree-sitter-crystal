@@ -1,6 +1,9 @@
 [package]
 name = "tree-sitter-crystal"
 version = "0.1.0"
+description = "Crystal grammar for tree-sitter"
+repository = "https://github.com/undivisible/tree-sitter-crystal"
+license = "MIT"
 edition = "2021"
 build = "bindings/rust/build.rs"
 
