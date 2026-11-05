@@ -25,8 +25,7 @@ module.exports = grammar({
     ),
 
     method_definition: $ => seq(
-      optional(seq($.identifier, '.')),
-      'def', field('name', $.identifier),
+      'def', optional(seq($.identifier, '.')), field('name', $.identifier),
       optional(field('parameters', $.parameters)),
       optional(seq(':', field('return_type', $.type))),
       optional(field('body', $.body)),

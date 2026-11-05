@@ -88,6 +88,10 @@
       "type": "SEQ",
       "members": [
         {
+          "type": "STRING",
+          "value": "def"
+        },
+        {
           "type": "CHOICE",
           "members": [
             {
@@ -107,10 +111,6 @@
               "type": "BLANK"
             }
           ]
-        },
-        {
-          "type": "STRING",
-          "value": "def"
         },
         {
           "type": "FIELD",

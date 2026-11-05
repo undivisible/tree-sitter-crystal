@@ -1,0 +1,24 @@
+==================
+Instance and class methods
+==================
+
+def hello
+  42
+end
+
+def self.hello
+  42
+end
+
+---
+
+(source_file
+  (method_definition
+    name: (identifier)
+    body: (body
+      (expression_statement value: (int))))
+  (method_definition
+    (identifier)
+    name: (identifier)
+    body: (body
+      (expression_statement value: (int)))))
