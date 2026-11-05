@@ -2,7 +2,7 @@
   "name": "tree-sitter-crystal",
   "version": "0.1.0",
   "description": "Tree-sitter grammar for crystal",
-  "main": "bindings/node",
+  "private": true,
   "scripts": {
     "test": "tree-sitter parse sample.cr"
   },

@@ -5,7 +5,8 @@
       "camelcase": "crystal",
       "scope": "source.crystal",
       "path": ".",
-      "file-types": ["cr"]
+      "file-types": ["cr"],
+      "highlights": "queries/highlights.scm"
     }
   ],
   "metadata": {
@@ -15,10 +16,10 @@
     "authors": [{"name": "undivisible", "email": "undivisible@example.com"}]
   },
   "bindings": {
-    "c": true,
+    "c": false,
     "java": false,
     "go": false,
-    "node": true,
+    "node": false,
     "python": false,
     "rust": true,
     "wasm": false
